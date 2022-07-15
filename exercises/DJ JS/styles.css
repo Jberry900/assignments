@@ -1,0 +1,9 @@
+#square1 {
+    width: 300px;
+    height: 100px;
+  padding: 25px;
+  border: solid;
+  margin: 25px;
+  display: inline-block;
+
+}

@@ -1,0 +1,16 @@
+html {
+    background-color: darkkhaki;
+}
+
+div {
+    border-style: outset;
+    border-radius: 10px;
+    width: 450px;
+    padding: 5%;
+    background-color: beige;
+    font-family:sans-serif;
+}
+
+button {
+    margin-top: 20px;
+}

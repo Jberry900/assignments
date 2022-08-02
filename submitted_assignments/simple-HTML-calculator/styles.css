@@ -1,0 +1,37 @@
+body {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+#add, #subtract, #multiply {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    text-align: center;
+
+}
+#add {
+    background-color: antiquewhite;
+    position: absolute;
+    margin-left: 15%;
+   
+}
+#subtract {
+    background-color: aquamarine;
+    position: absolute;
+    margin-left: 40%;
+    
+}
+#multiply {
+    background-color: aqua;
+    position: absolute;
+    margin-left: 65%;
+    
+}

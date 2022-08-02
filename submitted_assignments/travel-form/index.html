@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Travel Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <h2>Tell us a little about your plans!</h2>
+            <form name="travelForm">
+                <p><b>Whats your name?</b></p>
+                <input type="text" name="firstName" placeholder="First Name" required/>
+                <br>
+                <input type="text" name="lastName" placeholder="Last Name" required/>
+                <br>
+                <input type="number" name="age" placeholder="Age" required/>
+                <br>
+                <p><b>Gender Info</b></p>
+                Male: <input type="radio" name="gender" value="Male"/>
+                <br>
+                Female: <input type="radio" name="gender" value="Female"/>
+                <br>
+                <p><b>Where are you going?</b></p>
+                <select name="location" id="location">
+                    <option value="Select Location">Select Location</option>
+                    <option value="Dallas, Texas" selected>Dallas, Texas</option>
+                    <option value="Anchorage, Alaska" selected>Anchorage, Alaska</option>
+                    <option value="Fayetteville, North Carolina" selected>Fayetteville, North Carolina</option>
+                </select>
+                <br>
+                <p><b>Food restrictions?</b></p>
+                Vegetarian: <input type="checkbox" name="diet" value="Vegetarian"/>
+                <br>
+                Kosher: <input type="checkbox" name="diet" value="Kosher"/>
+                <br>
+                Lactose Free: <input type="checkbox" name="diet" value="Lactose Free"/>
+                <br>
+                <button>Submit</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

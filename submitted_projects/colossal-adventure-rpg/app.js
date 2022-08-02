@@ -2,8 +2,6 @@ const readlineSync = require('readline-sync');
 const chalk = require('chalk');
 const input = require('readline-sync');
 const name = input.question(chalk.bgRed.black.bold("You wake up in a dark hallway. Someone asks you a question then vanishes..", "What is your name: "));
-
-
 const player = {
     Name: name,
     Health: 10,

@@ -3,12 +3,74 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Mario Pest Control</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div id="grid-container">
+            <span id="header">
+                <h2>Mario Pest Control</h2>
+                <h6>Billing Dashboard. Use fields below to calculate total amount.</h6>
+            </span>
+            <div id="goomba">
+                <ul>
+                    <li><img src="images/goomba.jpg" style="width:50px;height:50px;"></li>
+                    <li>Goomba</li>
+                    <li>5 Coins</li>
+                </ul>
+                <form name="goombaF">
+                    <input name="goomba" type="number" placeholder="Enter Number Caught"/>
+                    <button id="goombaBtn">Calculate</button>
+                </form>
+            </div>
+            <div id="bomb">
+                <ul>
+                    <li><img src="images/bomb.jpg" style="width:50px;height:50px;"></li>
+                    <li>Bob-Omb</li>
+                    <li>7 Coins</li>
+                </ul>
+                <form name="bombF">
+                    <input name="bomb" type="number" placeholder="Enter Number Caught"/>
+                    <button id="bombBtn">Calculate</button>
+                </form>
+            </div>
+            <div id="cheep">
+                <ul>
+                    <li><img src="images/cheep-cheep.jpg" style="width:50px;height:50px;"></li>
+                    <li>Cheep-Cheep</li>
+                    <li>11 Coins</li>
+                </ul>
+                <form name="cheepF">
+                    <input name="cheep" type="number" placeholder="Enter Number Caught"/>
+                    <button id="cheepBtn">Calculate</button>
+                </form>
+            </div>
+            <main id="content">
+
+            </main>
+            <footer>
+                <div id="email">
+                    <ul>
+                        <li><b>Mario</b></li>
+                        <li>Mario@M-Pest.com</li>
+                    </ul>
+                </div>
+                <div id="website">
+                    <ul>
+                        <li><b>Check Out Our Site</b></li>
+                        <li>www.MarioPestControl.com</li>
+                    </ul>
+                </div>
+                <div id="address">
+                    <ul>
+                        <li><b>Drive to Our House!</b></li>
+                        <li>1543 Mario Dr.<br>Mushroom Kingdom</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
         <script src="app.js"></script>
     </body>
 </html>

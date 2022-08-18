@@ -1,0 +1,86 @@
+html {
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+li {
+    list-style: none;
+}
+#grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+
+}
+
+#header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    text-align: center;
+    font-size: 25px;
+  
+   
+}
+
+
+#goomba {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: 5px solid brown;
+    background-color: coral;
+    border-radius: 15px;
+    
+}
+
+#bomb {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 5px solid brown;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+
+#cheep {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    border: 5px solid brown;
+    background-color: indianred;
+    border-radius: 15px;
+    
+}
+
+#content {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    
+
+}
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    border-top: 5px solid black;
+    
+}
+
+#email {
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+   
+}
+
+#website {
+    display: inline-block;
+    position: absolute;
+    margin-left: 40%;
+    text-align: center;
+}
+
+#address {
+    display: inline-block;
+    position: absolute;
+    margin-left: 84%;
+    text-align: right;
+
+}
